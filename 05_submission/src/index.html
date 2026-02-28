@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submission-05</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+<div id = 'container'>  
+    
+    <canvas class="webgl"></canvas>
+    
+    <div class="genre-container">
+
+        <button data-genre="HYPERPOP" class="button">
+            <span class="text">HYPERPOP</span>
+        </button>
+        <button data-genre="ELECTRO-HOUSE" class="button">
+            <span class="text">ELECTRO-HOUSE</span>
+        </button>
+        <button data-genre="TECHNO" class="button">
+            <span class="text">TECHNO</span>
+        </button>
+        <button data-genre="DnB" class="button">
+            <span class="text">Drum & Bass</span>
+        </button>
+
+    </div>
+
+    <button class ="fullScreenButton"><img src="./icons/fullscreen-icon.svg" alt="Fullscreen Icon" class="fullscreen-icon"></button>
+
+    <div id="info-card">
+        <h2 id="card-title"></h2>
+        <p id="card-description"></p>
+        <t><span id="bpm-number"></span> BPM</t>
+        <br>
+        <g id="artist-name"></g>
+        <a id="spotify-button" href="#" target="_blank">
+        <img src="./icons/spotify-icon.svg" alt="Spotify Icon" class="spotify-icon">
+    </a>
+
+</div>
+<script type="module" src="./script.js"></script>
+
+</div>
+</body>
+</html>

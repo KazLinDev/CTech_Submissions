@@ -1,0 +1,20 @@
+{
+  "name": "submission_03",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "deploy": "vercel --prod"
+  },
+  "devDependencies": {
+    "vite": "^6.2.2",
+    "vite-plugin-restart": "^0.4.2"
+  },
+  "dependencies": {
+    "lil-gui": "^0.21.0",
+    "three": "^0.174.0",
+    "vercel": "^41.0.2"
+  }
+}
